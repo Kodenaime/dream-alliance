@@ -17,9 +17,7 @@ export const Footer = () => {
           </a>
 
           <p class="footer-text">
-            Urna ratione ante harum provident, eleifend, vulputate molestiae proin fringilla, praesentium magna conubia
-            at
-            perferendis, pretium, aenean aut ultrices.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta tempore impedit inventore itaque doloremque omnis.
           </p>
 
         </div>
@@ -37,7 +35,7 @@ export const Footer = () => {
             <li class="contact-item">
               <ion-icon name="call-outline"></ion-icon>
 
-              <a href="tel:+01123456790" class="contact-link">+01 (123) 4567 90</a>
+              <a href="tel:+234 806 856 4195" class="contact-link">+01 (123) 4567 90</a>
             </li>
 
             <li class="contact-item">
@@ -49,7 +47,7 @@ export const Footer = () => {
             <li class="contact-item">
               <ion-icon name="location-outline"></ion-icon>
 
-              <address>3146 Koontz, California</address>
+              <address>Lagos, Nigeria</address>
             </li>
 
           </ul>
@@ -77,7 +75,7 @@ export const Footer = () => {
       <div class="container">
 
         <p class="copyright">
-          &copy; 2022 <a href="">codewithsadee</a>. All rights reserved
+          &copy; 2024 <a href="">codewithsadee</a>. All rights reserved
         </p>
 
         <ul class="footer-bottom-list">
