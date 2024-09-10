@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from '../src/Components/Navbar/Navbar'
-import Hero from '../src/Components/Hero/Hero'
-import About from '../src/Components/About/About'
-import Tour from '../src/Components/Tour/Tour'
-import Journey from '../src/Components/Journey/Journey'
-import Discover from '../src/Components/Discover/Discover'
-import Footer from '../src/Components/Footer/Footer'
+import Navbar from '../src/Components/Navbar'
+import Hero from '../src/Components/Hero'
+import About from '../src/Components/About'
+import Tour from '../src/Components/Tour'
+import Journey from '../src/Components/Journey'
+import Discover from '../src/Components/Discover'
+import Footer from '../src/Components/Footer'
 
 const App = () => {
   return (

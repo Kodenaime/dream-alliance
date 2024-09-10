@@ -1,5 +1,5 @@
 import React from 'react'
-import './discover.css'
+import '../../src/index.css'
 
 const Discover = () => {
   return (

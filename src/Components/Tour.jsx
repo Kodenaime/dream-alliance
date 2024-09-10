@@ -1,5 +1,5 @@
 import React from 'react'
-import './tour.css'
+import '../../src/index.css'
 
 export const Tour = () => {
   return (
