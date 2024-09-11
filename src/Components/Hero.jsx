@@ -1,26 +1,32 @@
 import React from 'react'
 import '../../src/index.css'
 
+import bg from '../Assets/bg.png'
 
 const Hero = () => {
   return (
     <section class="hero" id="home">
     <div class="container">
 
-      <h2 class="h1 hero-title">Journey to explore world</h2>
+      <div class="hero-content">
 
-      <p class="hero-text">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut quasi perferendis earum quis! Aspernatur, perspiciatis iusto officia dolore ipsam aut. Doloribus voluptates mollitia esse iusto enim incidunt ullam nulla molestiae?
-      </p>
+        <h1 class="h1 hero-title">Your best travel agency agency</h1>
 
-      <div class="btn-group">
-        <button class="btn btn-primary">Learn more</button>
+        <p class="hero-text">
+          Capture and retrieve your lists across devices to help you stay organized at work, home, and on the go.
+        </p>
 
-        <button class="btn btn-secondary">Book now</button>
+        <a href="https://docs.google.com/forms/d/10jmt_pVGD2vj4KO7lDJvlcIXDt0Vd00q6pjDR2i_ZZ0/edit?usp=sharing_eil_se_dm&ts=66df073e" class="btn btn-primary">Get started</a>
+
       </div>
 
+      <div class="hero-banner"></div>
+
     </div>
+
+    <img src={bg} alt="shape" class="shape-content" />
   </section>
+
   )
 }
 
