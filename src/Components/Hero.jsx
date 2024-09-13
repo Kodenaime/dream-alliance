@@ -1,32 +1,65 @@
 import React from 'react'
-import '../../src/index.css'
 
-import bg from '../Assets/bg.png'
+import slide1 from '../Assets/hero-slide-1.jpg'
+import slide2 from '../Assets/hero-slide-2.jpg'
+import slide3 from '../Assets/hero-slide-3.jpg'
 
 const Hero = () => {
   return (
-    <section class="hero" id="home">
-    <div class="container">
+    <section class="section hero has-bg-image" aria-label="home"
+        >
+        <div class="container">
 
-      <div class="hero-content">
+          <div class="hero-content">
 
-        <h1 class="h1 hero-title">Your best travel agency agency</h1>
+            <h1 class="h1 hero-title">Crafting project specific solutions with expertise.</h1>
 
-        <p class="hero-text">
-          Capture and retrieve your lists across devices to help you stay organized at work, home, and on the go.
-        </p>
+            <p class="hero-text">
+              We’re a creative company that focuses on establishing long-term relationships with customers.
+            </p>
 
-        <a href="https://docs.google.com/forms/d/10jmt_pVGD2vj4KO7lDJvlcIXDt0Vd00q6pjDR2i_ZZ0/edit?usp=sharing_eil_se_dm&ts=66df073e" class="btn btn-primary">Get started</a>
+            <div class="btn-wrapper">
 
-      </div>
+              <a href="#" class="btn btn-primary">Explore Now</a>
 
-      <div class="hero-banner"></div>
+              <a href="#" class="btn btn-outline">Let's Talk</a>
 
-    </div>
+            </div>
 
-    <img src={bg} alt="shape" class="shape-content" />
-  </section>
+          </div>
 
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" width="575" height="550">
+                    <img src={slide2}width="575" height="550" alt="" class="img-cover" />
+                  </figure>
+
+                </li>
+
+                
+
+              
+
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
   )
 }
 

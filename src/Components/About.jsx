@@ -1,102 +1,93 @@
 import React from 'react'
-import '../../src/index.css'
 
 import about1 from '../Assets/about-banner.png'
 
 const About = () => {
   return (
-    <section class="about" id="about">
-    <div class="container">
+    <section class="about" aria-labelledby="about-label">
+        <div class="container">
 
-      <div class="about-top">
+          <figure class="about-banner">
+            <img src={about1} width="800" height="580" loading="lazy" alt="about banner"
+              class="w-100" />
+          </figure>
 
-        <h2 class="h2 section-title">What we do</h2>
+          <div class="about-content">
 
-        <p class="section-text">
-          Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back into the
-          development of
-          the asset through its charitable foundation.
-        </p>
+            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
 
-        <ul class="about-list">
+            <h2 class="h2 section-title">
+              We bring solutions to make life easier for our clients.
+            </h2>
 
-          <li>
-            <div class="about-card">
+            <ul>
 
-              <div class="card-icon">
-                <ion-icon name="briefcase-outline"></ion-icon>
-              </div>
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
 
-              <h3 class="h3 card-title">Paid Search and Social Management</h3>
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
 
-              <p class="card-text">
-                Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back
-              </p>
+                      <spna class="span h5">Professional Design</spna>
+                    </button>
+                  </h3>
 
-            </div>
-          </li>
+                  <p class="accordion-content">
+                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
+                    vel.
+                  </p>
 
-          <li>
-            <div class="about-card">
+                </div>
+              </li>
 
-              <div class="card-icon">
-                <ion-icon name="chatbubbles-outline"></ion-icon>
-              </div>
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
 
-              <h3 class="h3 card-title">Direct Response Content</h3>
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
 
-              <p class="card-text">
-                Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back
-              </p>
+                      <spna class="span h5">Top-Notch Support</spna>
+                    </button>
+                  </h3>
 
-            </div>
-          </li>
+                  <p class="accordion-content">
+                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
+                    vel.
+                  </p>
 
-          <li>
-            <div class="about-card">
+                </div>
+              </li>
 
-              <div class="card-icon">
-                <ion-icon name="rocket-outline"></ion-icon>
-              </div>
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
 
-              <h3 class="h3 card-title">CRO and Retention Optimizations</h3>
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
 
-              <p class="card-text">
-                Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back
-              </p>
+                      <spna class="span h5">Exclusive Assets</spna>
+                    </button>
+                  </h3>
 
-            </div>
-          </li>
+                  <p class="accordion-content">
+                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
+                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
+                    vel.
+                  </p>
 
-        </ul>
+                </div>
+              </li>
 
-      </div>
+            </ul>
 
-      <div class="about-bottom">
-
-        <figure class="about-bottom-banner">
-          <img src={about1} alt="about banner" class="about-banner" />
-        </figure>
-
-        <div class="about-bottom-content">
-
-          <h2 class="h2 section-title">We’re obsessed with growth</h2>
-
-          <p class="section-text">
-            Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back into the
-            development of
-            the asset through its charitable foundation.
-          </p>
-
-          <a href="https://docs.google.com/forms/d/10jmt_pVGD2vj4KO7lDJvlcIXDt0Vd00q6pjDR2i_ZZ0/edit?usp=sharing_eil_se_dm&ts=66df073e" class="btn btn-secondary">Get in Touch</a>
+          </div>
 
         </div>
-
-      </div>
-
-    </div>
-  </section>
-
+      </section>
   )
 }
 

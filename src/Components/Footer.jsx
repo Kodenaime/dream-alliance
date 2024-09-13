@@ -1,104 +1,119 @@
 import React from 'react'
-import '../../src/index.css'
 
 import logo from '../Assets/logo.png'
-
-export const Footer = () => {
+const Footer = () => {
   return (
     <footer class="footer">
+    <div class="container grid-list">
 
-    <div class="footer-top">
-      <div class="container">
+      <div class="footer-brand">
 
-        <div class="footer-brand">
+        <a href="#" class="logo">
+          <img src={logo} width="74" height="24" alt="Adex home" />
+        </a>
 
-          <a href="#" class="logo">
-            <img src={logo} alt="Tourly logo" />
-          </a>
-
-          <p class="footer-text">
-           Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta tempore impedit inventore itaque doloremque omnis.
-          </p>
-
-        </div>
-
-        <div class="footer-contact">
-
-          <h4 class="contact-title">Contact Us</h4>
-
-          <p class="contact-text">
-            Feel free to contact and reach us !!
-          </p>
-
-          <ul>
-
-            <li class="contact-item">
-              <ion-icon name="call-outline"></ion-icon>
-
-              <a href="tel:+234 806 856 4195" class="contact-link">+01 (123) 4567 90</a>
-            </li>
-
-            <li class="contact-item">
-              <ion-icon name="mail-outline"></ion-icon>
-
-              <a href="mailto:info.tourly.com" class="contact-link">info.tourly.com</a>
-            </li>
-
-            <li class="contact-item">
-              <ion-icon name="location-outline"></ion-icon>
-
-              <address>Lagos, Nigeria</address>
-            </li>
-
-          </ul>
-
-        </div>
-
-        <div class="footer-form">
-
-          <p class="form-text">
-            Subscribe our newsletter for more update & news !!
-          </p>
-
-          <form action="" class="form-wrapper">
-            <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required />
-
-            <button type="submit" class="btn btn-secondary">Subscribe</button>
-          </form>
-
-        </div>
-
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <div class="container">
-
-        <p class="copyright">
-          &copy; 2024 <a href="">codewithsadee</a>. All rights reserved
+        <p class="footer-text">
+          &copy; 2024 dream alliance. <br /> All rights reserved.
         </p>
 
-        <ul class="footer-bottom-list">
+        <ul class="social-list">
 
           <li>
-            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
           </li>
 
           <li>
-            <a href="#" class="footer-bottom-link">Term & Condition</a>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
           </li>
 
           <li>
-            <a href="#" class="footer-bottom-link">FAQ</a>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
           </li>
 
         </ul>
 
       </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            Moonshine St. 14/05 Light City, Lagos, Nigeria.
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:info@email.com" class="footer-link">info@email.com</a>
+        </li>
+
+        <li>
+          <a href="tel: 343434343434" class="footer-link">00 (123) 456 78 90</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Our Story</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Projects</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Terms of Use</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Our Newsletter</p>
+
+        <p class="footer-text">
+          Subscribe to our newsletter to get our news & deals delivered to you.
+        </p>
+
+        <form action="" class="input-wrapper">
+          <input type="email" name="email_address" placeholder="Email Address" required class="input-field" />
+
+          <button type="submit" class="submit-btn">Join</button>
+        </form>
+
+      </div>
+
     </div>
-
   </footer>
-
   )
 }
 
