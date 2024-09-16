@@ -1,27 +1,25 @@
 import React from 'react'
-import Navbar from '../src/Components/Navbar'
-import Hero from '../src/Components/Hero'
-import About from '../src/Components/About'
-import Services from '../src/Components/Services'
-import Features from '../src/Components/Features'
-import Cta from '../src/Components/Cta'
-import Contact from '../src/Components/Contact'
-import Footer from '../src/Components/Footer'
-import Vis from '../src/Components/Vis'
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from '../src/Pages/Home'
+import Visa from '../src/Pages/Visa'
+import Info from '../src/Pages/Info'
+
+
 
 const App = () => {
   return (
-    <>
-        <Navbar />
-        <Hero />
-        <Vis />
-        <About />
-        <Services />
-        <Features />
-        <Cta />
-        <Contact />
-        <Footer />
-    </>
+    
+    <div>
+        <BrowserRouter>
+          <Routes>
+            <Route index element={<Home />}  />
+            <Route path='/home' element={<Home />}  />
+            <Route path='/visa' element={<Visa />}  />
+            <Route path='/info' element={<Info />}  />
+          </Routes>
+        </BrowserRouter>
+    </div>
   )
 }
 

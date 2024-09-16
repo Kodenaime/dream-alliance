@@ -25,9 +25,9 @@ const Navbar = () => {
           <img src={logo}  alt="Logo for the website" /> 
       </a>
 			<nav ref={navRef}>
-				<a href="#">Features</a>
-				<a href="#about">How it Works</a>
-				<a href="#featured">Supported Chains</a>
+				<a href="/home">Home</a>
+				<a href="/visa">Visas</a>
+				<a href="/info">Eligibility</a>
                 
 				<button
 					className="nav-btn nav-close-btn"
@@ -35,7 +35,7 @@ const Navbar = () => {
 					<FaRegWindowClose />
 				</button>
 			</nav>
-      <div className="btn na-b">Check Eligibility</div>
+      <a href='/info' className="btn na-b">Check Eligibility</a>
 			<button
 				className="nav-btn"
 				onClick={showNavbar}>
