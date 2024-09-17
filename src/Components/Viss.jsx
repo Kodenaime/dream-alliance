@@ -1,18 +1,10 @@
 import React from 'react'
-import '../index.css'
-
-import slide2 from '../Assets/hero-slide-2.jpg'
-
-const Visa = () => {
+import slide3 from '../Assets/hero-slide-3.jpg'
+const Viss = () => {
   return (
     <section class="new-hero">
-            <div class="right">
-                <div class="img_container">
-                    <img src={slide2} alt="" class="img" />
-                </div>
-            </div>
             <div class="left">
-                <h3 class="head_text">EB1 Visa</h3>
+                <h3 class="head_text">EB2 Visa</h3>
                 <p class="body_text">
                 EB1 visa is a priority worker visa category for individuals with extraordinary ability,
                  outstanding professors, and researchers.
@@ -20,11 +12,13 @@ const Visa = () => {
                 </p>
                 <a href="#" class="btn">Get In Touch</a>
             </div>
-           
-    </section>
-   
-    
+            <div class="right">
+                <div class="img_container">
+                    <img src={slide3} alt="" class="img" />
+                </div>
+            </div>
+        </section>
   )
 }
 
-export default Visa
+export default Viss

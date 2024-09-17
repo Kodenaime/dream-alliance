@@ -23,9 +23,9 @@ const Eligibility = () => {
   };
 
   return (
-    <section >
+    <section  class="eligibility-form" >
             
-            <form action="" class="eligibility-form">
+            <form action="">
 
                 <div class="input-wrapper">
                 <label for="name" class="input-label">Name *</label>
