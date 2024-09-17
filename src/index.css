@@ -231,17 +231,17 @@ body.nav-active { overflow: hidden; }
 }
 
 .btn:hover {
-  background: var(--white);
+  background: transparent;
   color: var(--royal-blue);
-  border: 1px solid var(--color-primary);
+  border: 1px solid var(--royal-blue);
   transform: scale(1.1);
 }
 
 .btn-primary {
   width: max-content;
   display: inline-block;
-  color: var(--color-primary);
-  background: var(--color-white);
+  color: var(--white);
+  background: var(--charcoal);
   padding: 0.8rem 1.2rem;
   border-radius: 0.5rem;
   cursor: pointer;
@@ -913,6 +913,71 @@ textarea {
   resize: vertical;
 }
 
+.eligibility-form {
+  padding: 2rem;
+  margin: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.wraps p {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.checker {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+input[type=checkbox] {
+  position: relative;
+  height: 2rem;
+  width: 2rem;
+  
+}
+
+
+.textarea {
+  height: 4rem;
+  width: 80%;
+}
+
+.btns-primary {
+  /* width: max-content; */
+  display: inline-block;
+  color: var(--white);
+  background: var(--charcoal);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+  
+}
+
+/* .eli-btn {
+  width: fit-content;
+  padding: 0.8rem 1.2rem;
+  background-color: var(--royal-blue);
+  color: var(--white);
+  border-radius: 1rem;
+} */
+
+/* .wraps .checker {
+  display: flex;
+  align-items: center; 
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+} */
+
+@media (max-width: 720px) {
+  .eligibility-form {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 @media (min-width: 450px) {
   .contact-title { --fs-2: 32px; }
@@ -937,6 +1002,13 @@ textarea {
 
   .contact-form { width: 50%; }
 
+}
+
+.eligib {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 2rem;
 }
 
 
