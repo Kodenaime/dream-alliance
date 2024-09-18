@@ -282,6 +282,7 @@ body.nav-active { overflow: hidden; }
 
 
 
+
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
@@ -509,6 +510,7 @@ nav a {
 .hero {
   padding-block-start: calc(var(--section-padding) + 70px);
   text-align: center;
+  background-color: var(--gray);
 }
 
 .hero .container {
@@ -654,6 +656,23 @@ nav a {
 .about .container {
   display: grid;
   gap: 50px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-banner img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.about-banner {
+  margin-right: 6rem;
+  width: 100%;
+}
+
+@media (max-width: 990px) {
+  .about-banner {
+    margin-right: 0;
+  }
 }
 
 .about .section-title { margin-block-end: 35px; }
@@ -870,6 +889,8 @@ nav a {
   border: none;
 }
 
+
+
 /*-----------------------------------*\ 
  * #Vis And Viss
 \*-----------------------------------*/
@@ -1076,13 +1097,6 @@ input[type=checkbox] {
 
 }
 
-.eligib {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  padding: 2rem;
-}
-
 
 /*-----------------------------------*\
   #FOOTER
@@ -1096,7 +1110,7 @@ input[type=checkbox] {
 
 .footer-brand .footer-text { margin-block: 20px; }
 
-.footer .social-list { color: var(--white); }
+.footer .social-list { color: var(--royal-blue); }
 
 .footer-list-title {
   color: var(--raisin-black);

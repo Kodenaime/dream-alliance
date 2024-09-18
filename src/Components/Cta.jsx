@@ -7,7 +7,7 @@ const Cta = () => {
     <section class="cta" aria-label="call to action">
     <div class="container">
 
-      <a href="#" ><img src={logons} alt="" /></a>
+      <div  className='logons' ><img src={logons} alt="" width='85%'/></div>
 
       <h2 class="h2 section-title">
         We Provide Tailored Solutions for Each Clinets Ensuring Success.

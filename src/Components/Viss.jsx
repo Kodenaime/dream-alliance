@@ -10,7 +10,7 @@ const Viss = () => {
                  outstanding professors, and researchers.
                  Let us guide you through the EB1 visa process to help you achieve your American dream.
                 </p>
-                <a href="#" class="btn">Get In Touch</a>
+                <a href="#contact" class="btn">Get In Touch</a>
             </div>
             <div class="right">
                 <div class="img_container">

@@ -1,15 +1,15 @@
 import React from 'react'
 
-import about1 from '../Assets/about-banner.png'
+import globe from '../Assets/globe.jpg'
 
 const About = () => {
   return (
     <section class="about" aria-labelledby="about-label">
-        <div class="container">
+        <div class="new-hero">
 
           <figure class="about-banner">
-            <img src={about1} width="800" height="580" loading="lazy" alt="about banner"
-              class="w-100" />
+            <img className='about-images'src={globe} loading="lazy"  alt="about banner"
+               />
           </figure>
 
           <div class="about-content">
@@ -29,60 +29,23 @@ const About = () => {
                     <button class="accordion-btn" data-accordion-btn>
                       <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
 
-                      <spna class="span h5">Professional Design</spna>
+                      <spna class="span h5">Everyone Has the Right To Dream</spna>
                     </button>
                   </h3>
 
                   <p class="accordion-content">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel.
+                  It doesn't matter where you come from, where you were born, 
+                  your parent's country or what passport you hold. 
+                  Our dream is to see your dream align.
                   </p>
 
                 </div>
               </li>
 
-              <li class="about-item">
-                <div class="accordion-card" data-accordion>
-
-                  <h3 class="card-title">
-                    <button class="accordion-btn" data-accordion-btn>
-                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
-                      <spna class="span h5">Top-Notch Support</spna>
-                    </button>
-                  </h3>
-
-                  <p class="accordion-content">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel.
-                  </p>
-
-                </div>
-              </li>
-
-              <li class="about-item">
-                <div class="accordion-card" data-accordion>
-
-                  <h3 class="card-title">
-                    <button class="accordion-btn" data-accordion-btn>
-                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
-                      <spna class="span h5">Exclusive Assets</spna>
-                    </button>
-                  </h3>
-
-                  <p class="accordion-content">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel.
-                  </p>
-
-                </div>
-              </li>
+            
 
             </ul>
+            <a href="/info" className="btn">Check Eligibility</a>
 
           </div>
 

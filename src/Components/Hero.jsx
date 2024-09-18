@@ -1,8 +1,8 @@
 import React from 'react'
 
-import slide1 from '../Assets/hero-slide-1.jpg'
+
 import slide2 from '../Assets/hero-slide-2.jpg'
-import slide3 from '../Assets/hero-slide-3.jpg'
+
 
 const Hero = () => {
   return (
@@ -20,9 +20,9 @@ const Hero = () => {
 
             <div class="btn-wrapper">
 
-              <a href="#" class="btn btn-primary">Explore Now</a>
+              <a href="/info" class="btn btn-primary">Check Eligibility</a>
 
-              <a href="#" class="btn btn-outline">Let's Talk</a>
+              <a href="#contact" class="btn btn-outline">Let's Talk</a>
 
             </div>
 

@@ -25,7 +25,7 @@ const Eligibility = () => {
   return (
     <section  class="eligibility-form" >
             
-            <form action="">
+            <form ref={form} onSubmit={sendEmail} action="">
 
                 <div class="input-wrapper">
                 <label for="name" class="input-label">Name *</label>
@@ -231,10 +231,9 @@ const Eligibility = () => {
                 </div>
 
                 <div class="input-wrapper">
-                <label for="message" class="input-label">If yes, Tell us more *</label>
+                    <label for="email" class="input-label">If Yes Tell us more *</label>
 
-                <textarea className='textarea'name="message" id="message" placeholder="Type Description" required
-                    class="input-field"></textarea>
+                    <input type="text" name="text" id="text" required placeholder="Type your message" class="input-field" />
                 </div>
 
                 <button type="submit" class="btn btns-primary">Submit</button>

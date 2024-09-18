@@ -13,15 +13,9 @@ export const Contact = () => {
       <form action="" class="contact-form">
 
         <div class="input-wrapper">
-          <label for="name" class="input-label">Name *</label>
+          <label for="name" class="input-label">Full Name *</label>
 
           <input type="text" name="name" id="name" required placeholder="Type Name" class="input-field" />
-        </div>
-
-        <div class="input-wrapper">
-          <label for="phone" class="input-label">Phone</label>
-
-          <input type="tel" name="phone" id="phone" placeholder="Type Phone Number" class="input-field" />
         </div>
 
         <div class="input-wrapper">
@@ -31,10 +25,15 @@ export const Contact = () => {
         </div>
 
         <div class="input-wrapper">
-          <label for="message" class="input-label">How can we help? *</label>
+          <label for="phone" class="input-label">Subject</label>
 
-          <textarea name="message" id="message" placeholder="Type Description" required
-            class="input-field"></textarea>
+          <input type="tel" name="phone" id="phone" placeholder="Type Phone Number" class="input-field" />
+        </div>
+
+        <div class="input-wrapper">
+          <label for="email" class="input-label">Message *</label>
+
+          <input type="text" name="text" id="text" required placeholder="Type your message" class="input-field" />
         </div>
 
         <button type="submit" class="btn btn-primary">Send Message</button>

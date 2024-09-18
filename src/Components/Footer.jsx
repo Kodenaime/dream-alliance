@@ -1,5 +1,9 @@
 import React from 'react'
 
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+
 import logo from '../Assets/logo.png'
 const Footer = () => {
   return (
@@ -16,33 +20,7 @@ const Footer = () => {
           &copy; 2024 dream alliance. <br /> All rights reserved.
         </p>
 
-        <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
+      
 
       </div>
 
@@ -71,37 +49,45 @@ const Footer = () => {
       <ul class="footer-list">
 
         <li>
-          <p class="h4 footer-list-title">Learn More</p>
+          <p class="h4 footer-list-title">Socials</p>
         </li>
 
-        <li>
-          <a href="#" class="footer-link">About Us</a>
-        </li>
+        <ul class="social-list">
 
-        <li>
-          <a href="#" class="footer-link">Our Story</a>
-        </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"><FaFacebookF /></ion-icon>
+            </a>
+          </li>
 
-        <li>
-          <a href="#" class="footer-link">Projects</a>
-        </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"><FaTwitter /></ion-icon>
+            </a>
+          </li>
 
-        <li>
-          <a href="#" class="footer-link">Terms of Use</a>
-        </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"><FaInstagram /></ion-icon>
+            </a>
+          </li>
 
-        <li>
-          <a href="#" class="footer-link">Privacy Policy</a>
-        </li>
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
 
       </ul>
 
       <div class="footer-list">
 
-        <p class="h4 footer-list-title">Our Newsletter</p>
+        {/* <p class="h4 footer-list-title">Our Newsletter</p> */}
 
         <p class="footer-text">
-          Subscribe to our newsletter to get our news & deals delivered to you.
+          Subscribe to our newsletter .
         </p>
 
         <form action="" class="input-wrapper">
