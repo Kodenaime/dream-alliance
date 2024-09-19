@@ -13,7 +13,7 @@ const Footer = () => {
       <div class="footer-brand">
 
         <a href="#" class="logo">
-          <img src={logo} width="74" height="24" alt="Adex home" />
+          <img src={logo} width="74" height="24" alt="dream alliance logo" />
         </a>
 
         <p class="footer-text">
@@ -32,16 +32,17 @@ const Footer = () => {
 
         <li>
           <address class="footer-text">
-            Moonshine St. 14/05 Light City, Lagos, Nigeria.
+          24 School Street, Floor 2, Downtown Boston, MA 02108
+
           </address>
         </li>
 
         <li>
-          <a href="mailto:info@email.com" class="footer-link">info@email.com</a>
+          <a href="mailto:info@yourdreamalliance.com" class="footer-link">info@yourdreamalliance.com</a>
         </li>
 
         <li>
-          <a href="tel: 343434343434" class="footer-link">00 (123) 456 78 90</a>
+          <a href="tel: 343434343434" class="footer-link">+1 (161) 720 26372</a>
         </li>
 
       </ul>

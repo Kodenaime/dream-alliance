@@ -11,7 +11,7 @@ const Eligibility = () => {
     const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_6436wtt', 'template_03g5tg6', form.current, 'ixOpuARCs9lBJOb0F')
+    emailjs.sendForm('service_wlzinr9', 'template_yfkhqfk', form.current, 'sOqfTenK8i1mOXGWG')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
