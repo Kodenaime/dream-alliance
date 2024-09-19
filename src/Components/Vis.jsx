@@ -18,7 +18,7 @@ const Visa = () => {
                  outstanding professors, and researchers.
                  Let us guide you through the EB1 visa process to help you achieve your American dream.
                 </p>
-                <a href="#contact" class="btn">Get In Touch</a>
+                <a href="/home#contact" class="btn">Get In Touch</a>
             </div>
            
     </section>

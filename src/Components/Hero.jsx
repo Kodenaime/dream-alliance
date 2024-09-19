@@ -22,7 +22,7 @@ const Hero = () => {
 
               <a href="/info" class="btn btn-primary">Check Eligibility</a>
 
-              <a href="#contact" class="btn btn-outline">Let's Talk</a>
+              <a href="/home#contact" class="btn btn-outline">Let's Talk</a>
 
             </div>
 

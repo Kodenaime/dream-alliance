@@ -2,15 +2,34 @@ import React from 'react'
 import '../../src/index.css'
 
 import cont from '../Assets/contact.png'
+import  { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+  e.preventDefault();
+
+  emailjs.sendForm('service_wlzinr9', 'template_yfkhqfk', form.current, 'sOqfTenK8i1mOXGWG')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+
+    e.target.reset()
+
+};
+
   return (
     <section class="contact" id="contact">
     <div class="container">
 
       
 
-      <form action="" class="contact-form">
+      <form ref={form} onSubmit={sendEmail}  action="" class="contact-form">
 
         <div class="input-wrapper">
           <label for="name" class="input-label">Full Name *</label>
@@ -27,14 +46,16 @@ export const Contact = () => {
         <div class="input-wrapper">
           <label for="phone" class="input-label">Subject</label>
 
-          <input type="tel" name="phone" id="phone" placeholder="Type Phone Number" class="input-field" />
+          <input type="tel" name="subject" id="phone" placeholder="Type your subject" class="input-field" />
         </div>
 
         <div class="input-wrapper">
-          <label for="email" class="input-label">Message *</label>
+          <label for="text" class="input-label">Message *</label>
 
-          <input type="text" name="text" id="text" required placeholder="Type your message" class="input-field" />
+          <input type="text" name="message" id="text" required placeholder="Type your message" class="input-field" />
         </div>
+
+      
 
         <button type="submit" class="btn btn-primary">Send Message</button>
 
