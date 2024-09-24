@@ -12,10 +12,10 @@ const Hero = () => {
 
           <div class="hero-content">
 
-            <h1 class="h1 hero-title">Crafting project specific solutions with expertise.</h1>
+            <h1 class="h1 hero-title">Dream Alliance</h1>
 
             <p class="hero-text">
-              We’re a creative company that focuses on establishing long-term relationships with customers.
+              Your Gateway to the Land of Dreams.
             </p>
 
             <div class="btn-wrapper">

@@ -753,6 +753,14 @@ nav a {
   flex-direction: column;
 }
 
+.feat-head {
+  /* letter-spacing: 0.5rem; */
+  font-size: 3rem;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 2rem;
+}
+
 .feats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -862,25 +870,22 @@ nav a {
   #CTA
 \*-----------------------------------*/
 
-.cta { background-color: var(--royal-blue); }
+.cta { 
+  background-color: var(--royal-blue); 
+  
+}
 
 .cta .container {
-  padding-block: 100px 60px;
-  border-block-end: 1px solid var(--cadet-blue-crayola_a20);
+ 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
-.cta .section-title {
+.cta-title {
+  margin-bottom: 4rem;
   color: var(--white);
-  margin-block-end: 30px;
-}
-
-.h2-title {
-  color: var(--white);
-  margin-block-end: 30px;
-}
-
-.section-titler p{
-  color: var(--white);
+  font-size: 3rem;
 }
 
 .cta .btn {

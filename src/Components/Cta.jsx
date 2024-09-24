@@ -9,11 +9,9 @@ const Cta = () => {
 
       <div  className='logons' ><img src={logons} alt="" width='85%'/></div>
 
-      <h2 class="h2 section-title">
+      <h2 class="cta-title">
         We Provide Tailored Solutions for Each Clinets Ensuring Success.
-      </h2>
-
-     
+      </h2>     
 
     </div>
   </section>
