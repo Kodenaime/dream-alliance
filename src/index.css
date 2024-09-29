@@ -580,6 +580,10 @@ nav a {
   overflow: hidden;
 }
 
+.hero-pic {
+  border-radius: 50%;
+}
+
 .hero .slider-btn {
   position: absolute;
   top: 50%;
