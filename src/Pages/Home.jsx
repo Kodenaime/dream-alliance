@@ -5,7 +5,6 @@ import About from '../Components/About'
 import Services from '../Components/Services'
 import Features from '../Components/Features'
 import Cta from '../Components/Cta'
-import Contact from '../Components/Contact'
 import Footer from '../Components/Footer'
 
 const Home = () => {
@@ -17,7 +16,6 @@ const Home = () => {
         <About />
         <Services />        
         <Cta />
-        <Contact />
         <Footer />
     </>
   )

@@ -45,7 +45,7 @@ const About = () => {
             
 
             </ul>
-            <a href="/info" className="btn">Check Eligibility</a>
+            <a href="https://docs.google.com/forms/d/10jmt_pVGD2vj4KO7lDJvlcIXDt0Vd00q6pjDR2i_ZZ0/edit?usp=sharing_eip_se_dm&ts=66df073e" className="btn">Check Eligibility</a>
 
           </div>
 

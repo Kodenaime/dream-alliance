@@ -3,12 +3,13 @@ import '../index.css'
 
 import front from '../Assets/front.jpg'
 
+
 const Visa = () => {
   return (
     <section class="new-hero">
             <div class="right">
-                <div class="img_container">
-                    <img src={front} alt="" class="img" />
+                <div class="images_container">
+                    <img src={front} alt="" class="img1" />
                 </div>
             </div>
             <div class="left">
@@ -18,7 +19,7 @@ const Visa = () => {
                  outstanding professors, and researchers.
                  Let us guide you through the EB1 visa process to help you achieve your American dream.
                 </p>
-                <a href="/home#contact" class="btn">Get In Touch</a>
+                <a href="/info" class="btn">Get In Touch</a>
             </div>
            
     </section>

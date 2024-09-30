@@ -14,7 +14,7 @@ const Footer = () => {
 
       <div class="footer-brand">
 
-        <a href="#" class="logo">
+        <a href="/" class="logo">
           <img src={logo} width="74" height="24" alt="dream alliance logo" />
         </a>
 
