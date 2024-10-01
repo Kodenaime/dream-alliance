@@ -44,7 +44,7 @@ const Footer = () => {
         </li>
 
         <li>
-          <a href="tel: 343434343434" class="footer-link">+1 (161) 720 26372</a>
+          <a href="tel: +16172026372" class="footer-link">+1 (617) 202-6372</a>
         </li>
 
       </ul>
@@ -64,19 +64,19 @@ const Footer = () => {
           </li>
 
           <li>
-            <a href="#" class="social-link">
+            <a href="https://x.com/alliance25564" class="social-link">
               <ion-icon name="logo-twitter"><FaTwitter /></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="#" class="social-link">
+            <a href="https://www.instagram.com/yourdreamalliance?igsh=NDdibzRnNHZ4ejBq" class="social-link">
               <ion-icon name="logo-instagram"><FaInstagram /></ion-icon>
             </a>
           </li>
 
           <li>
-            <a href="#" class="social-link">
+            <a href="https://www.youtube.com/@yourdreamalliance" class="social-link">
               <ion-icon name="logo-youtube"><FaYoutube /></ion-icon>
             </a>
           </li>
@@ -86,8 +86,6 @@ const Footer = () => {
       </ul>
 
       <div class="footer-list">
-
-        {/* <p class="h4 footer-list-title">Our Newsletter</p> */}
 
         <p class="footer-text">
           Subscribe to our newsletter .

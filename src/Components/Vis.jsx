@@ -9,7 +9,7 @@ const Visa = () => {
     <section class="new-hero">
             <div class="right">
                 <div class="images_container">
-                    <img src={front} alt="" class="img1" />
+                    <img src={front} alt="" class="img" />
                 </div>
             </div>
             <div class="left">

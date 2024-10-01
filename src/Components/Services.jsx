@@ -25,18 +25,13 @@ const Services = () => {
                   <ion-icon name="call-outline" aria-hidden="true"><BiSupport /></ion-icon>
                 </div>
 
-                <h3 class="h4 card-title">24/7 Support</h3>
+                <h3 class="h4 card-title">Dedicated Support</h3>
 
                 <p class="card-text">
                   Dedicated assistance and problem-solving available around the clock.
                 </p>
 
-                {/* <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
-
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a> */}
-
+         
               </div>
             </li>
 
@@ -67,7 +62,7 @@ const Services = () => {
                   <ion-icon name="cloud-download-outline" aria-hidden="true"><FaShippingFast /></ion-icon>
                 </div>
 
-                <h3 class="h4 card-title">Fast-track Visa Application</h3>
+                <h3 class="h4 card-title">Visa Application</h3>
 
                 <p class="card-text">
                    Streamlined and expedited visa applications for efficient processing.
@@ -85,7 +80,7 @@ const Services = () => {
                   <ion-icon name="pie-chart-outline" aria-hidden="true"><SlEnvolopeLetter /></ion-icon>
                 </div>
 
-                <h3 class="h4 card-title">Expert Letter</h3>
+                <h3 class="h4 card-title">Visa Application Appeal</h3>
 
                 <p class="card-text">
                   Tailored letters of support or recommendation for visa applications.

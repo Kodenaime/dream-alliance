@@ -18,15 +18,15 @@ const Features = () => {
 
         <div className="feat downer">
           <img src={client1} alt="" />
-          <h4>INDIVIDUALS</h4>
+          <h4>Individual's</h4>
         </div>
         <div className="feat">
           <img src={client2} alt="" />
-          <h4>PROFESSIONALS</h4>
+          <h4>Professional's</h4>
         </div>
         <div className="feat downer">
           <img src={client3} alt="" />
-          <h4>FAMILIES</h4>
+          <h4>Families</h4>
         </div>
 
       </div>

@@ -21,14 +21,13 @@ const Navbar = () => {
   return (
     
     <header>
-			<a href='/home' className="logo">
+		<a href='/home' className="logo">
           <img src={logo}  alt="Logo for the website" /> 
-      </a>
+       </a>
 			<nav ref={navRef}>
 				<a href="/home">Home</a>
-				<a href="/visa">Visas</a>
-				
-                
+				<a href="/visa">Visas</a>				
+                <a href="/info">Contact Us</a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
