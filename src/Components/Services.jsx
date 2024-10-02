@@ -44,7 +44,7 @@ const Services = () => {
                   <ion-icon name="shield-checkmark-outline" aria-hidden="true"><FaPeopleGroup /></ion-icon>
                 </div>
 
-                <h3 class="h4 card-title">Visa Consultation</h3>
+                <h3 class="h4 card-title"> EB1 & Eb2 visa consultation</h3>
 
                 <p class="card-text">
                   Expert guidance on visa requirements, eligibility, and application processes.
@@ -62,7 +62,8 @@ const Services = () => {
                   <ion-icon name="cloud-download-outline" aria-hidden="true"><FaShippingFast /></ion-icon>
                 </div>
 
-                <h3 class="h4 card-title">Visa Application</h3>
+                <h3 class="h4 card-title"> Fast- track Visa application
+                </h3>
 
                 <p class="card-text">
                    Streamlined and expedited visa applications for efficient processing.
@@ -80,7 +81,7 @@ const Services = () => {
                   <ion-icon name="pie-chart-outline" aria-hidden="true"><SlEnvolopeLetter /></ion-icon>
                 </div>
 
-                <h3 class="h4 card-title">Visa Application Appeal</h3>
+                <h3 class="h4 card-title">Visa Appeal</h3>
 
                 <p class="card-text">
                   Tailored letters of support or recommendation for visa applications.

@@ -11,21 +11,21 @@ const Hero = () => {
   const [visible, setvisible]=useState(false)
 
   return (
-    <section class="section hero has-bg-image" aria-label="home"
+    <section className="section hero has-bg-image" aria-label="home"
         >
-        <div class="container">
+        <div className="container">
 
-          <div class="hero-content">
+          <div className="hero-content">
 
-            <h1 class="h1 hero-title">Dream Alliance</h1>
+            <h1 className="h1 hero-title">Dream Alliance</h1>
 
-            <p class="hero-text">
-              Your Gateway to the Land of Dreams.
+            <p className="hero-text">
+                Building futures one person at a time. Dream Alliance, your gateway to opportunities!
             </p>
 
-            <div class="btn-wrapper">
+            <div className="btn-wrapper">
 
-              <a href="https://docs.google.com/forms/d/10jmt_pVGD2vj4KO7lDJvlcIXDt0Vd00q6pjDR2i_ZZ0/edit?usp=sharing_eip_se_dm&ts=66df073e" class="btn btn-primary">Check Eligibility</a>
+              <a href="https://docs.google.com/forms/d/10jmt_pVGD2vj4KO7lDJvlcIXDt0Vd00q6pjDR2i_ZZ0/edit?usp=sharing_eip_se_dm&ts=66df073e" className="btn btn-primary">Check Eligibility</a>
               <div className="cont">
                   <button onClick={() => setvisible(true) } className="btn btn-outline"> Consult Now</button>
                   <Model isOpen={visible} onRequestClose={() => setvisible(false)}>
@@ -40,8 +40,8 @@ const Hero = () => {
           </div>
 
           <div className="hero-pic">
-                  <figure class="hero-pic" width="575" height="550">
-                    <img src={slide2}width="575" height="550" alt="" class="img-cover" />
+                  <figure className="hero-pic" width="575" height="550">
+                    <img src={slide2}width="575" height="550" alt="" className="img-cover" />
                   </figure>
           </div>             
 

@@ -7,8 +7,8 @@ import client3 from '../Assets/client-4.jpg'
 
 const Features = () => {
   return (
-    <section class="section feature" aria-labelledby="feature-label">
-    <div class="feat-container">
+    <section className="section feature" aria-labelledby="feature-label">
+    <div className="feat-container">
 
       <div className="feat-head">
         <h2>We Have Something for Everyone</h2>

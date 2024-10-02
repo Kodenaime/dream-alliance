@@ -10,7 +10,7 @@ const Cta = () => {
       <div  className='logons' ><img src={logons} alt="" width='85%'/></div>
 
       <h2 class="cta-title">
-        We Provide Tailored Solutions for Each Clients Ensuring Success.
+        We Provide Tailored Solutions for Each Client Ensuring Success.
       </h2>     
 
     </div>

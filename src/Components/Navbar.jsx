@@ -24,7 +24,7 @@ const Navbar = () => {
 		<a href='/home' className="logo">
           <img src={logo}  alt="Logo for the website" /> 
        </a>
-			<nav ref={navRef}>
+			<nav className='nav-items' ref={navRef}>
 				<a href="/home">Home</a>
 				<a href="/visa">Visas</a>				
                 <a href="/info">Contact Us</a>

@@ -4,11 +4,13 @@ const Viss = () => {
   return (
     <section class="new-hero">
             <div class="left">
-                <h3 class="head_text">EB2 Visa</h3>
-                <p class="body_text">
-                EB1 visa is a priority worker visa category for individuals with extraordinary ability,
-                 outstanding professors, and researchers.
-                 Let us guide you through the EB1 visa process to help you achieve your American dream.
+                <h2 class="head_text">Eb2 Visa</h2>
+                <h3 className="head-text">Advance your career with an EB2 visa</h3>
+                <p class="body_text">               
+                    EB2 Visa is a U.S. immigrant visa category is designed for individuals who are members of professional bodies, 
+                    holding advanced degrees or exceptional ability. 
+                    This means you must have a master's degree or higher (or equivalent) in a specific field, 
+                    or exceptional ability in your field as demonstrated by a national or international recognition.
                 </p>
                 <a href="/info" class="btn">Get In Touch</a>
             </div>

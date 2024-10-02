@@ -2,8 +2,8 @@ import React from 'react'
 
 const under = () => {
   return (
-    <section class="cta" aria-label="call to action">
-    <div class="container">
+    <section className="cta" aria-label="call to action">
+    <div className="container">
 
 
         <div className="section-titler">
