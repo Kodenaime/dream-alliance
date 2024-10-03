@@ -430,6 +430,7 @@ nav a {
 .hero-pic {
   margin-top: -30rem;
   margin-bottom: -30rem;
+  
 }
 
 
@@ -445,8 +446,7 @@ nav a {
   }
 
 
-  .hero-pic {
-  
+  .hero-pic {  
     width: 100%;
     margin-right: 0;
     margin-top: -10rem;
@@ -455,15 +455,13 @@ nav a {
 
   
 .hero .container {
-  flex-wrap: wrap; 
-  
+  flex-wrap: wrap;   
 }
   
 }
 
 @media only screen and (max-width: 800px) {
-  .hero-pic {
-  
+  .hero-pic {  
     width: 100%;
     margin-right: 0;
     margin-top: -8rem;
@@ -613,6 +611,11 @@ nav a {
   gap: 3rem;
 }
 
+.feats h4 {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
 .feat .downer {
   display: flex;
   flex-direction: column;
@@ -666,6 +669,7 @@ nav a {
 
 .cta-title {
   margin-bottom: 4rem;
+  margin-top: 4rem;
   color: var(--white);
   font-size: 3rem;
 }
@@ -691,10 +695,22 @@ nav a {
   margin-bottom: 3rem;
 }
 
+@media (max-width: 999px) {
+  .cta-title {
+    margin-top: 7rem;
+  }
+}
+
+@media (max-width: 780px) {
+  .cta-title {
+    margin-top: 4rem;
+  }
+}
+
 
 
 /*-----------------------------------*\ 
- * #Vis And Viss
+ * #Vis And Viss and Blog
 \*-----------------------------------*/
 
 
@@ -769,6 +785,14 @@ nav a {
   .right{
     padding: 0;
   }
+}
+
+.blog {
+  margin: 4rem;
+}
+
+.blogger {
+  margin-left: 3rem;
 }
 
 

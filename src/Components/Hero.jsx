@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Model from 'react-modal';
 
 
-import slide2 from '../Assets/heroes.png'
+import slide2 from '../Assets/heroes.webp'
 import Contact from './Contact'
 
 
@@ -20,7 +20,7 @@ const Hero = () => {
             <h1 className="h1 hero-title">Dream Alliance</h1>
 
             <p className="hero-text">
-                Building futures one person at a time. Dream Alliance, your gateway to opportunities!
+                US Eb 1 and Eb 2 Visa Accessible to You. Dream Alliance, your gateway to opportunities!
             </p>
 
             <div className="btn-wrapper">

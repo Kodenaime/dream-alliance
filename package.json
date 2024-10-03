@@ -1,6 +1,6 @@
 {
-  "name": "dream-alliance",
   "homepage": "https://yourdreamalliance.com/",
+  "name": "dream-alliance",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -4,7 +4,7 @@ import React from 'react'
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
 
 import logo from '../Assets/logo.png'
 const Footer = () => {
@@ -56,12 +56,12 @@ const Footer = () => {
         </li>
 
         <ul className="social-list">
-
+{/* 
           <li>
             <a href="#" className="social-link">
-              <ion-icon name="logo-linkedin"><FaLinkedin /></ion-icon>
+              <ion-icon name="logo-facebook"><FaFacebookSquare /></ion-icon>
             </a>
-          </li>
+          </li> */}
 
           <li>
             <a href="https://x.com/alliance25564" className="social-link">
