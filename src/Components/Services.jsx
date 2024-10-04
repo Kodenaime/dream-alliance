@@ -25,7 +25,7 @@ const Services = () => {
                   <ion-icon name="call-outline" aria-hidden="true"><BiSupport /></ion-icon>
                 </div>
 
-                <h3 class="h4 card-title">Dedicated Support</h3>
+                <h3 class="h4 card-title">Dedicated support</h3>
 
                 <p class="card-text">
                   Dedicated assistance and problem-solving available around the clock.
@@ -44,7 +44,7 @@ const Services = () => {
                   <ion-icon name="shield-checkmark-outline" aria-hidden="true"><FaPeopleGroup /></ion-icon>
                 </div>
 
-                <h3 class="h4 card-title"> EB1 & Eb2 visa consultation</h3>
+                <h3 class="h4 card-title"> EB1 & EB2 visa consultation</h3>
 
                 <p class="card-text">
                   Expert guidance on visa requirements, eligibility, and application processes.
@@ -62,7 +62,7 @@ const Services = () => {
                   <ion-icon name="cloud-download-outline" aria-hidden="true"><FaShippingFast /></ion-icon>
                 </div>
 
-                <h3 class="h4 card-title"> Fast- track Visa application
+                <h3 class="h4 card-title"> Fast-track visa application
                 </h3>
 
                 <p class="card-text">
@@ -81,10 +81,10 @@ const Services = () => {
                   <ion-icon name="pie-chart-outline" aria-hidden="true"><SlEnvolopeLetter /></ion-icon>
                 </div>
 
-                <h3 class="h4 card-title">Visa Appeal</h3>
+                <h3 class="h4 card-title">Visa appeal</h3>
 
                 <p class="card-text">
-                  Tailored letters of support or recommendation for visa applications.
+                  Tailored letters of support or request for evidence (RFP) for visa applications.
                 </p>
 
                 

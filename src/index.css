@@ -418,6 +418,13 @@ nav a {
   margin-block: 24px 36px;
 }
 
+.hero__text {
+  font-size: var(--fs-4);
+  color: var(--raisin-black);
+  margin-bottom: 2rem;
+  margin-top: -2rem;
+}
+
 .btn-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -428,9 +435,10 @@ nav a {
 
 
 .hero-pic {
+  width: 82%;
   margin-top: -30rem;
-  margin-bottom: -30rem;
-  
+  margin-bottom: -27rem;
+  margin-right: -12rem;
 }
 
 

@@ -20,8 +20,10 @@ const Hero = () => {
             <h1 className="h1 hero-title">Dream Alliance</h1>
 
             <p className="hero-text">
-                US Eb 1 and Eb 2 Visa Accessible to You. Dream Alliance, your gateway to opportunities!
+               Dream Alliance, your gateway to opportunities! 
             </p>
+            <p className='hero__text'> US Eb 1 and Eb 2 visa accessible to you.</p>
+        
 
             <div className="btn-wrapper">
 

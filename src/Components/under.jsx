@@ -17,7 +17,7 @@ const under = () => {
         </div>
    
       
-      <a href="https://docs.google.com/forms/d/10jmt_pVGD2vj4KO7lDJvlcIXDt0Vd00q6pjDR2i_ZZ0/edit?usp=sharing_eip_se_dm&ts=66df073e" class="btn btn-primary emma">Check Eligibility</a>
+      <a href="/info" className='btn-primary btn emma'>Get In Touch</a>
 
     </div>
   </section>

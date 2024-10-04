@@ -21,7 +21,7 @@ const Visa = () => {
                     and researchers. 
                     Let us guide you through the EB1 visa process to help you achieve your American dream.
                 </p>
-                <a href="/info" class="btn">Get In Touch</a>
+                <a href="https://docs.google.com/forms/d/10jmt_pVGD2vj4KO7lDJvlcIXDt0Vd00q6pjDR2i_ZZ0/edit?usp=sharing_eip_se_dm&ts=66df073e" className="btn">Check Eligibility</a>
             </div>
            
     </section>

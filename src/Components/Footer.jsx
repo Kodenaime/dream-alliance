@@ -29,7 +29,7 @@ const Footer = () => {
       <ul className="footer-list">
 
         <li>
-          <p className="h4 footer-list-title">Get in Touch</p>
+          <p className="h4 footer-list-title">Contact Us</p>
         </li>
 
         <li>
@@ -44,7 +44,8 @@ const Footer = () => {
         </li>
 
         <li>
-          <a href="tel: +16172026372" className="footer-link">+1 (617) 202-6372</a>
+          <a href="tel: +16172026372" className="footer-link">US: +1 (617) 202-6372</a>
+          <a href="tel: +2348122545669" className="footer-link">NG: +234 812 254 5669</a>
         </li>
 
       </ul>
