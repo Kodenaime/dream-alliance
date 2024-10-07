@@ -16,8 +16,8 @@ const Visa = () => {
                 <h2 class="head_text">EB1 Visa</h2>
                 <h3 className='head-text'>Unlock your potential with our expert EB1 visa services. </h3>
                 <p class="body_text">                                    
-                    We guide you through the process, ensuring a seamless and successful application.
-                    EB1 visa is a priority worker visa category for individuals with extraordinary ability, outstanding professors, 
+                   
+                    EB1 visa is a U.S. priority worker visa category for individuals with extraordinary ability, outstanding professors, 
                     and researchers. 
                     Let us guide you through the EB1 visa process to help you achieve your American dream.
                 </p>
