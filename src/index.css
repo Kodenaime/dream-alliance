@@ -1068,6 +1068,53 @@ input[type=checkbox] {
 } 
 
 /*-----------------------------------*\
+  #ALL STYLING FOR BLOGS
+\*-----------------------------------*/
+
+.blogs-container .blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.blogs-container .h2 {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.blog {
+  border-radius: 0.5rem;
+}
+
+.blog-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+}
+
+.blog-text {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.botre {
+  color: var(--black-coral);
+  font-weight: bold;
+}
+
+@media screen and (max-width:980px){
+  .blogs-container .blogs {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width:680px){
+  .blogs-container .blogs {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
 

@@ -6,6 +6,7 @@ import Visa from '../src/Pages/Visa'
 import Info from '../src/Pages/Info'
 import Blog from '../src/Pages/Blog'
 import BlogForm from './Components/BlogForm'
+import BlogManagement from './Components/BlogManagement'
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
             <Route path='/info' element={<Info />}  />
             <Route path='/blog' element={<Blog />}  />
             <Route path='/create' element={<BlogForm />}  />
+            <Route path='/manage' element={<BlogManagement />}  />
           </Routes>
         </BrowserRouter>
     </div>
