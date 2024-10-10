@@ -7,6 +7,7 @@ import Info from '../src/Pages/Info'
 import Blog from '../src/Pages/Blog'
 import BlogForm from './Components/BlogForm'
 import BlogManagement from './Components/BlogManagement'
+import BlogDetails from './Components/BlogDetails'
 
 
 
@@ -21,9 +22,10 @@ const App = () => {
             <Route path='/home' element={<Home />}  />
             <Route path='/visa' element={<Visa />}  />
             <Route path='/info' element={<Info />}  />
-            <Route path='/blog' element={<Blog />}  />
-            <Route path='/create' element={<BlogForm />}  />
-            <Route path='/manage' element={<BlogManagement />}  />
+            <Route path='/blogs' element={<Blog />}  />
+            <Route path='/creator' element={<BlogForm />}  />
+            <Route path='/manager' element={<BlogManagement />}  />
+            <Route path='/blog/:id' element={<BlogDetails />} />
           </Routes>
         </BrowserRouter>
     </div>

@@ -1,11 +1,12 @@
 // BlogList.js
 import React, { useEffect, useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { collection, getDocs } from 'firebase/firestore';
 import { db } from '../firebase'; // Firebase configuration file
 
 const BlogList = () => {
   const [blogs, setBlogs] = useState([]);
-  const [expandedBlogs, setExpandedBlogs] = useState({});
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchBlogs = async () => {
@@ -20,17 +21,11 @@ const BlogList = () => {
     fetchBlogs();
   }, []);
 
-  const toggleReadMore = (id) => {
-    setExpandedBlogs(prevState => ({
-      ...prevState,
-      [id]: !prevState[id] // Toggles between true and false for the blog id
-    }));
+  
+  const handleReadMore = (id) => {
+    navigate(`/blog/${id}`); // Navigate to the BlogDetails page with the blog ID
   };
 
-  const getTruncatedText = (text, maxLength) => {
-    if (text.length <= maxLength) return text;
-    return text.substring(0, maxLength) + "...";
-  };
 
   return (
     
@@ -39,20 +34,18 @@ const BlogList = () => {
         <div className='blogs'>
         
         {blogs.map((blog) => {
-            const isExpanded = expandedBlogs[blog.id];
-            const bodyToDisplay = isExpanded ? blog.body : getTruncatedText(blog.body, 100); // Limit body to 100 characters
-            const shouldShowReadMore = blog.body.length > 50; // Only show "Read More" button if text is long enough
+            
 
             return (
             <div className='blog' key={blog.id} style={{ border: '1px solid #ccc', margin: '10px', padding: '10px' }}>
                 <h3 className='blog-title'>{blog.title}</h3>
                 <img className='blog-image' src={blog.image} alt={blog.title} style={{ width: '100%' }} />
-                <p className='blog-text'>{bodyToDisplay}</p>
-                {shouldShowReadMore && (
-                <button className='botre' onClick={() => toggleReadMore(blog.id)}>
-                    {isExpanded ? "Read Less" : "Read More"}
-                </button>
-                )}
+                <p>{blog.body.length > 100 ? blog.body.substring(0, 100) + '...' : blog.body}</p>
+                
+                 <button onClick={() => handleReadMore(blog.id)}>
+                 Read More
+               </button>
+                
                 <p className='blog-author'><strong>Author:</strong> {blog.author}</p>
             </div>
             );
