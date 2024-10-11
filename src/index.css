@@ -1097,6 +1097,10 @@ input[type=checkbox] {
   margin-bottom: 1rem;
 }
 
+.non {
+  margin-top: 1.5rem;
+}
+
 .botre {
   color: var(--black-coral);
   font-weight: bold;

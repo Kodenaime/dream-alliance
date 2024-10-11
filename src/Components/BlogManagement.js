@@ -31,7 +31,7 @@ const BlogManagement = () => {
   };
 
   return (
-    <section className='container blogs-container'>
+    <section className='section container blogs-container'>
         <h2>Manage Blogs</h2>
         <div className='blogs'>
         
@@ -49,6 +49,7 @@ const BlogManagement = () => {
             <p>No blogs available to manage.</p>
         )}
         </div>
+        <a href="/blogs" className="non btn-primary">Back to blogs</a>
     </section>
     
   );

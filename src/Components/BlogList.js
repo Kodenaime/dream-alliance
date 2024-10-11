@@ -42,8 +42,8 @@ const BlogList = () => {
                 <img className='blog-image' src={blog.image} alt={blog.title} style={{ width: '100%' }} />
                 <p>{blog.body.length > 100 ? blog.body.substring(0, 100) + '...' : blog.body}</p>
                 
-                 <button onClick={() => handleReadMore(blog.id)}>
-                 Read More
+                 <button className='botre' onClick={() => handleReadMore(blog.id)}>
+                 Read More...
                </button>
                 
                 <p className='blog-author'><strong>Author:</strong> {blog.author}</p>

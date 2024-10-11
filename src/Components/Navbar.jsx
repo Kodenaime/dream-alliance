@@ -27,7 +27,7 @@ const Navbar = () => {
 			<nav className='nav-items' ref={navRef}>
 				<a href="/home">Home</a>
 				<a href="/visa">Visas</a>	
-				<a href="/blog">Blog</a>			
+				<a href="/blogs">Blog</a>			
                 <a href="/info">Contact Us</a>
 				<button
 					className="nav-btn nav-close-btn"

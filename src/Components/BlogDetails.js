@@ -66,11 +66,11 @@ const styles = {
     borderRadius: '8px',
   },
   body: {
-    fontSize: '1.2rem',
-    marginTop: '20px',
+    fontSize: '1.7rem',
+    marginTop: '2rem',
   },
   author: {
-    marginTop: '10px',
+    marginTop: '1rem',
     fontStyle: 'italic',
   },
 };

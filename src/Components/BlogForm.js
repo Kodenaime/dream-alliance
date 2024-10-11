@@ -108,6 +108,8 @@ const BlogForm = () => {
       <button type="submit" style={formStyles.button} disabled={isUploading}>
         Submit
       </button>
+
+      <a href="/blogs" className="non btn-primary">Back to blogs</a>
     </form>
   );
 };
@@ -124,6 +126,7 @@ const formStyles = {
     boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
     borderRadius: '8px',
     backgroundColor: '#f9f9f9',
+    marginTop: '5rem',
   },
   inputGroup: {
     margin: '10px 0',
