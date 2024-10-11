@@ -56,7 +56,7 @@ const styles = {
     textAlign: 'center',
   },
   title: {
-    fontSize: '2rem',
+    fontSize: '2.5rem',
     margin: '20px 0',
   },
   image: {

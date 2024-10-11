@@ -1083,13 +1083,18 @@ input[type=checkbox] {
 }
 
 .blog {
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 .blog-title {
   margin-top: 1rem;
   margin-bottom: 1rem;
   text-transform: capitalize;
+}
+
+.blog-image {
+  border-radius: 0.5rem;
 }
 
 .blog-text {
