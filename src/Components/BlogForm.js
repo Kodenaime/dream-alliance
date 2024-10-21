@@ -7,6 +7,7 @@ import { v4 as uuidv4 } from 'uuid'; // For generating unique filenames
 
 const BlogForm = () => {
   const [title, setTitle] = useState('');
+  const [date, setDate] = useState('')
   const [body, setBody] = useState('');
   const [author, setAuthor] = useState('');
   const [image, setImage] = useState(null); // For the uploaded image file
@@ -25,6 +26,7 @@ const BlogForm = () => {
       await addDoc(collection(db, 'blogs'), {
         title,
         body,
+        // date,
         author,
         image: imageUrl, // Store the image URL in Firestore
       });
@@ -64,7 +66,7 @@ const BlogForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} style={formStyles.container}>
+    <form onSubmit={handleSubmit} style={formStyles.creatorcontainer}>
       <div style={formStyles.inputGroup}>
         <label style={formStyles.label}>Title:</label>
         <input
@@ -84,7 +86,17 @@ const BlogForm = () => {
           style={formStyles.textarea}
         />
       </div>
-      <div style={formStyles.inputGroup}>
+      {/* <div style={formStyles.inputGroup}>
+        <label style={formStyles.label}>Date:</label>
+        <input
+          type="date"
+          value={date}
+          onChange={(e) => setDate(e.target.value)}
+          // required
+          style={formStyles.input}
+        />
+      </div> */}
+      {/* <div style={formStyles.inputGroup}>
         <label style={formStyles.label}>Author:</label>
         <input
           type="text"
@@ -93,14 +105,14 @@ const BlogForm = () => {
           required
           style={formStyles.input}
         />
-      </div>
+      </div> */}
       <div style={formStyles.inputGroup}>
         <label style={formStyles.label}>Upload Image:</label>
         <input
           type="file"
           accept="image/*"
           onChange={handleImageChange}
-          required
+          // required
           style={formStyles.input}
         />
       </div>
@@ -115,7 +127,7 @@ const BlogForm = () => {
 };
 
 const formStyles = {
-  container: {
+  creatorcontainer: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',

@@ -1,0 +1,100 @@
+/* BlogDetails.css */
+
+.blog-det-container {
+    padding: 3rem 9rem;
+    background-color: var(--gray);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+  }
+  
+  .blog-det-title {
+    font-size: 3rem;
+    margin: 2rem 0;
+    font-weight: 700;
+    color: var(--charcoal);
+    text-align: center;
+  }
+  
+  .blog-det-image {
+    width: 85%;
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 0.7rem;
+    margin: 2rem auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-det-body {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    color: #444;
+    margin-top: 2rem;
+    white-space: pre-line; /* To preserve line breaks */
+  }
+  
+  .blog-det-author {
+    margin-top: 30px;
+    font-size: 1rem;
+    font-style: italic;
+    color: #555;
+    text-align: right;
+  }
+
+  /* BlogDetails.css */
+
+/* Styles for the body of the blog content */
+  
+  /* Make headers inside the body stand out more */
+  .blog-det-body h1, .blog-det-body h2, .blog-det-body h3, .blog-det-body h4, .blog-det-body h5, .blog-det-body h6 {
+    font-weight: 700; /* Make headers bolder */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #222; /* Slightly darker for emphasis */
+  }
+  
+  /* Adjusting font sizes for headers */
+  .blog-det-body h1 {
+    font-size: 2rem;
+  }
+  
+  .blog-det-body h2 {
+    font-size: 1.75rem;
+  }
+  
+  .blog-det-body h3 {
+    font-size: 1.5rem;
+  }
+  
+  .body h4 {
+    font-size: 1.25rem;
+  }
+  
+  .blog-det-body h5 {
+    font-size: 1.1rem;
+  }
+  
+  .blog-det-body h6 {
+    font-size: 1rem;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .blog-det-container {
+      padding: 15px;
+      max-width: 100%;
+    }
+    
+    .blog-det-title {
+      font-size: 2rem;
+    }
+    
+    .blog-det-body {
+      font-size: 1.1rem;
+    }
+  
+    .blog-det-image {
+      max-height: 300px;
+    }
+  }
+  

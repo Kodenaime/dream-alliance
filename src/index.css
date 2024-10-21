@@ -1071,11 +1071,17 @@ input[type=checkbox] {
   #ALL STYLING FOR BLOGS
 \*-----------------------------------*/
 
+.blogs-container {
+  margin-bottom: 10rem;
+}
+
+
 .blogs-container .blogs {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
+
 
 .blogs-container .h2 {
   margin-bottom: 1.5rem;
@@ -1089,7 +1095,7 @@ input[type=checkbox] {
 
 .blog-title {
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   text-transform: capitalize;
 }
 
@@ -1098,8 +1104,8 @@ input[type=checkbox] {
 }
 
 .blog-text {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .non {

@@ -40,7 +40,7 @@ const BlogManagement = () => {
             <div className='blog' key={blog.id} style={{ border: '1px solid #ccc', margin: '10px', padding: '10px' }}>
                 <h3 className='blog-title'>{blog.title}</h3>
                 <img className='blog-image' src={blog.image} alt={blog.title} style={{ width: '100%' }} />
-                <p>{blog.body}</p>
+                <p>{blog.body.length > 100 ? blog.body.substring(0, 100) + '...' : blog.body}</p>
                 <p className='blog-text'><strong>Author:</strong> {blog.author}</p>
                 <button className='btn' onClick={() => handleDelete(blog.id)}>Delete</button>
             </div>
